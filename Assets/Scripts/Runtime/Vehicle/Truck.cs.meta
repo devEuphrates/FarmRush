@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e6df969b796112b42ab84a40f091722e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _truckMaxSpeed: {fileID: 11400000, guid: af6c42579549dd1458a4dd21d4d19d5f, type: 2}
+  - _accleration: {fileID: 11400000, guid: 6b182cdefd7406e49907e6ca87ecd44f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

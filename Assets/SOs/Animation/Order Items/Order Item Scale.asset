@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90634fafda31cf4d874c3edcf9c9b4f, type: 3}
+  m_Name: Order Item Scale
+  m_EditorClassIdentifier: 
+  _value:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0016784668
+      value: 0
+      inSlope: 0.07303384
+      outSlope: 0.07303384
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.24379298
+    - serializedVersion: 3
+      time: 0.6274658
+      value: 0.9569567
+      inSlope: 3.614279
+      outSlope: 3.614279
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06659394
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36dcfd41e75d96940b7b1ee12c76b163, type: 3}
+  m_Name: Save And Load Manager
+  m_EditorClassIdentifier: 
+  _items: {fileID: 11400000, guid: 42ccb530d71dab849b0cb2fb379733ee, type: 2}
+  _unlocks: {fileID: 11400000, guid: 6b6264c334daaeb42bea17bd35a843eb, type: 2}
+  _cash: {fileID: 11400000, guid: af9c27bcc22cb024b8a8a18e5fd88f98, type: 2}
+  _defaultValues:
+    Cash: 300
+    UnlockedItems: 06000000
+    ObjectDatas: []
