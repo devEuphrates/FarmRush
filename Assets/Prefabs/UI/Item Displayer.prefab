@@ -47,6 +47,7 @@ MonoBehaviour:
   _itemMaxCount: -1
   _stack: {fileID: 0}
   _item: {fileID: 0}
+  _overrideImg: {fileID: 0}
   _text: {fileID: 1850740153636233533}
   _image: {fileID: 1563061772783381428}
 --- !u!1 &4408169081189225972
@@ -203,7 +204,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2692799054026033456
 CanvasRenderer:

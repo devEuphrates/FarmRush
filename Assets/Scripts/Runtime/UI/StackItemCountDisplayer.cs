@@ -10,6 +10,7 @@ namespace Euphrates
         [SerializeField, Min(-1)] int _itemMaxCount = -1;
         [SerializeField] Stacker _stack;
         [SerializeField] ItemSO _item;
+        [SerializeField] Sprite _overrideImg;
 
         [Header("References"), Space]
         [SerializeReference] TextMeshProUGUI _text;
@@ -20,6 +21,9 @@ namespace Euphrates
 
             if (_item.ItemIcon != null)
                 _image.sprite = _item.ItemIcon;
+
+            if (_overrideImg != null)
+                _image.sprite = _overrideImg;
 
             UpdateText();
         }

@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanTakeItems: 1
   CanGiveItems: 1
+  _playSounds: 0
   _drawGizmo: 1
   _cellSize: {x: 0.5, y: 0.25, z: 0.5}
   _rowCount: 2
@@ -498,6 +499,10 @@ PrefabInstance:
       propertyPath: _stack
       value: 
       objectReference: {fileID: 490454211601231276}
+    - target: {fileID: 3479468073547129886, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
+      propertyPath: _overrideImg
+      value: 
+      objectReference: {fileID: 21300000, guid: f803b3051a2ac7d409ed71e0b12778d4, type: 3}
     - target: {fileID: 4707366676006915544, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -529,6 +534,14 @@ PrefabInstance:
     - target: {fileID: 7048650939137722299, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048650939137722299, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7048650939137722299, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 7048650939137722299, guid: 32a0de5ab1121e341b428cfc9131b2a9, type: 3}
       propertyPath: m_AnchoredPosition.x
