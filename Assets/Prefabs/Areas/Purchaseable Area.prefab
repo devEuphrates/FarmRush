@@ -63,6 +63,7 @@ MonoBehaviour:
   _drawGizmos: 0
   _ownStack: {fileID: 0}
   _actionDelay: {fileID: 11400000, guid: 2c71fe4e868f8a848b314188c302d412, type: 2}
+  _startDelay: {fileID: 11400000, guid: a8d13f6cba4464e44abb373df995b2cc, type: 2}
   _cash: {fileID: 11400000, guid: af9c27bcc22cb024b8a8a18e5fd88f98, type: 2}
   _cashFloatDuraton: {fileID: 11400000, guid: dd06314b8f7262e49ad300bfcbf9d208, type: 2}
   _onBuy:

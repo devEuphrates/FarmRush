@@ -10,6 +10,9 @@ namespace Euphrates
         [Header("Stack and Action Attributes")]
         [SerializeField] protected Stacker _ownStack;
         [SerializeField] protected FloatSO _actionDelay;
+        [SerializeField] protected FloatSO _startDelay;
+
+        bool _startDelayPassed = false;
 
         public event Action onAction;
 
@@ -35,6 +38,8 @@ namespace Euphrates
 
             _stackOwner = null;
             _stack = null;
+            _timePassed = 0f;
+            _startDelayPassed = false;
         }
 
 
@@ -45,6 +50,15 @@ namespace Euphrates
                 return;
 
             _timePassed += Time.deltaTime;
+            if (!_startDelayPassed && _startDelay != null)
+            {
+                if (_timePassed < _startDelay)
+                    return;
+
+                _timePassed = 0f;
+                _startDelayPassed = true;
+            }
+            
             if (_timePassed < _actionDelay)
                 return;
 
