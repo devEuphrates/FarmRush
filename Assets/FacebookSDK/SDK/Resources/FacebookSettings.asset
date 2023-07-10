@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedAppIndex: 0
   clientTokens:
-  - d58e0b518f0a8d56d86b16d6d2311680
+  - 
   appIds:
-  - 788696325499698
+  - 
   appLabels:
   - Farm Rush
   cookie: 1
@@ -24,7 +24,7 @@ MonoBehaviour:
   status: 1
   xfbml: 0
   frictionlessRequests: 1
-  androidKeystorePath: D:/Lurid Crow/Lurid Crow DEV/Projects/GAME/Unity/ResinSoft/user.keystore
+  androidKeystorePath: 
   iosURLSuffix: 
   appLinkSchemes:
   - list: []
